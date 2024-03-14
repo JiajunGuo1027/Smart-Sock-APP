@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5726E0CA2BA30B8E001423BE /* Smart_SockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5726E0C92BA30B8E001423BE /* Smart_SockApp.swift */; };
+		5726E0CC2BA30B8E001423BE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5726E0CB2BA30B8E001423BE /* Persistence.swift */; };
+		5726E0CF2BA30B8E001423BE /* Smart_Sock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5726E0CD2BA30B8E001423BE /* Smart_Sock.xcdatamodeld */; };
+		5726E0D12BA30B8E001423BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5726E0D02BA30B8E001423BE /* ContentView.swift */; };
+		5726E0D32BA30B90001423BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5726E0D22BA30B90001423BE /* Assets.xcassets */; };
+		5726E0D72BA30B90001423BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5726E0D62BA30B90001423BE /* Preview Assets.xcassets */; };
+		5726E0E12BA30B90001423BE /* Smart_SockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5726E0E02BA30B90001423BE /* Smart_SockTests.swift */; };
+		5726E0EB2BA30B90001423BE /* Smart_SockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5726E0EA2BA30B90001423BE /* Smart_SockUITests.swift */; };
+		5726E0ED2BA30B90001423BE /* Smart_SockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5726E0EC2BA30B90001423BE /* Smart_SockUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5726E0DD2BA30B90001423BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5726E0BE2BA30B8E001423BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5726E0C52BA30B8E001423BE;
+			remoteInfo = "Smart Sock";
+		};
+		5726E0E72BA30B90001423BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5726E0BE2BA30B8E001423BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5726E0C52BA30B8E001423BE;
+			remoteInfo = "Smart Sock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5726E0C62BA30B8E001423BE /* Smart Sock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Sock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5726E0C92BA30B8E001423BE /* Smart_SockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_SockApp.swift; sourceTree = "<group>"; };
+		5726E0CB2BA30B8E001423BE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5726E0CE2BA30B8E001423BE /* Smart_Sock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smart_Sock.xcdatamodel; sourceTree = "<group>"; };
+		5726E0D02BA30B8E001423BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5726E0D22BA30B90001423BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5726E0D42BA30B90001423BE /* Smart_Sock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Smart_Sock.entitlements; sourceTree = "<group>"; };
+		5726E0D62BA30B90001423BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5726E0DC2BA30B90001423BE /* Smart SockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart SockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5726E0E02BA30B90001423BE /* Smart_SockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_SockTests.swift; sourceTree = "<group>"; };
+		5726E0E62BA30B90001423BE /* Smart SockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart SockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5726E0EA2BA30B90001423BE /* Smart_SockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_SockUITests.swift; sourceTree = "<group>"; };
+		5726E0EC2BA30B90001423BE /* Smart_SockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_SockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5726E0C32BA30B8E001423BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5726E0D92BA30B90001423BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5726E0E32BA30B90001423BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5726E0BD2BA30B8E001423BE = {
+			isa = PBXGroup;
+			children = (
+				5726E0C82BA30B8E001423BE /* Smart Sock */,
+				5726E0DF2BA30B90001423BE /* Smart SockTests */,
+				5726E0E92BA30B90001423BE /* Smart SockUITests */,
+				5726E0C72BA30B8E001423BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5726E0C72BA30B8E001423BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5726E0C62BA30B8E001423BE /* Smart Sock.app */,
+				5726E0DC2BA30B90001423BE /* Smart SockTests.xctest */,
+				5726E0E62BA30B90001423BE /* Smart SockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5726E0C82BA30B8E001423BE /* Smart Sock */ = {
+			isa = PBXGroup;
+			children = (
+				5726E0C92BA30B8E001423BE /* Smart_SockApp.swift */,
+				5726E0CB2BA30B8E001423BE /* Persistence.swift */,
+				5726E0D02BA30B8E001423BE /* ContentView.swift */,
+				5726E0D22BA30B90001423BE /* Assets.xcassets */,
+				5726E0D42BA30B90001423BE /* Smart_Sock.entitlements */,
+				5726E0CD2BA30B8E001423BE /* Smart_Sock.xcdatamodeld */,
+				5726E0D52BA30B90001423BE /* Preview Content */,
+			);
+			path = "Smart Sock";
+			sourceTree = "<group>";
+		};
+		5726E0D52BA30B90001423BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5726E0D62BA30B90001423BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5726E0DF2BA30B90001423BE /* Smart SockTests */ = {
+			isa = PBXGroup;
+			children = (
+				5726E0E02BA30B90001423BE /* Smart_SockTests.swift */,
+			);
+			path = "Smart SockTests";
+			sourceTree = "<group>";
+		};
+		5726E0E92BA30B90001423BE /* Smart SockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5726E0EA2BA30B90001423BE /* Smart_SockUITests.swift */,
+				5726E0EC2BA30B90001423BE /* Smart_SockUITestsLaunchTests.swift */,
+			);
+			path = "Smart SockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5726E0C52BA30B8E001423BE /* Smart Sock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5726E0F02BA30B90001423BE /* Build configuration list for PBXNativeTarget "Smart Sock" */;
+			buildPhases = (
+				5726E0C22BA30B8E001423BE /* Sources */,
+				5726E0C32BA30B8E001423BE /* Frameworks */,
+				5726E0C42BA30B8E001423BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Sock";
+			productName = "Smart Sock";
+			productReference = 5726E0C62BA30B8E001423BE /* Smart Sock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5726E0DB2BA30B90001423BE /* Smart SockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5726E0F32BA30B90001423BE /* Build configuration list for PBXNativeTarget "Smart SockTests" */;
+			buildPhases = (
+				5726E0D82BA30B90001423BE /* Sources */,
+				5726E0D92BA30B90001423BE /* Frameworks */,
+				5726E0DA2BA30B90001423BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5726E0DE2BA30B90001423BE /* PBXTargetDependency */,
+			);
+			name = "Smart SockTests";
+			productName = "Smart SockTests";
+			productReference = 5726E0DC2BA30B90001423BE /* Smart SockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5726E0E52BA30B90001423BE /* Smart SockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5726E0F62BA30B90001423BE /* Build configuration list for PBXNativeTarget "Smart SockUITests" */;
+			buildPhases = (
+				5726E0E22BA30B90001423BE /* Sources */,
+				5726E0E32BA30B90001423BE /* Frameworks */,
+				5726E0E42BA30B90001423BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5726E0E82BA30B90001423BE /* PBXTargetDependency */,
+			);
+			name = "Smart SockUITests";
+			productName = "Smart SockUITests";
+			productReference = 5726E0E62BA30B90001423BE /* Smart SockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5726E0BE2BA30B8E001423BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5726E0C52BA30B8E001423BE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5726E0DB2BA30B90001423BE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5726E0C52BA30B8E001423BE;
+					};
+					5726E0E52BA30B90001423BE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5726E0C52BA30B8E001423BE;
+					};
+				};
+			};
+			buildConfigurationList = 5726E0C12BA30B8E001423BE /* Build configuration list for PBXProject "Smart Sock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5726E0BD2BA30B8E001423BE;
+			productRefGroup = 5726E0C72BA30B8E001423BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5726E0C52BA30B8E001423BE /* Smart Sock */,
+				5726E0DB2BA30B90001423BE /* Smart SockTests */,
+				5726E0E52BA30B90001423BE /* Smart SockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5726E0C42BA30B8E001423BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5726E0D72BA30B90001423BE /* Preview Assets.xcassets in Resources */,
+				5726E0D32BA30B90001423BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5726E0DA2BA30B90001423BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5726E0E42BA30B90001423BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5726E0C22BA30B8E001423BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5726E0CF2BA30B8E001423BE /* Smart_Sock.xcdatamodeld in Sources */,
+				5726E0CA2BA30B8E001423BE /* Smart_SockApp.swift in Sources */,
+				5726E0D12BA30B8E001423BE /* ContentView.swift in Sources */,
+				5726E0CC2BA30B8E001423BE /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5726E0D82BA30B90001423BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5726E0E12BA30B90001423BE /* Smart_SockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5726E0E22BA30B90001423BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5726E0ED2BA30B90001423BE /* Smart_SockUITestsLaunchTests.swift in Sources */,
+				5726E0EB2BA30B90001423BE /* Smart_SockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5726E0DE2BA30B90001423BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5726E0C52BA30B8E001423BE /* Smart Sock */;
+			targetProxy = 5726E0DD2BA30B90001423BE /* PBXContainerItemProxy */;
+		};
+		5726E0E82BA30B90001423BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5726E0C52BA30B8E001423BE /* Smart Sock */;
+			targetProxy = 5726E0E72BA30B90001423BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5726E0EE2BA30B90001423BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5726E0EF2BA30B90001423BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5726E0F12BA30B90001423BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Smart Sock/Smart_Sock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart Sock/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4JW4PR2BN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JiajunGuo.FYP.Smart-Sock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5726E0F22BA30B90001423BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Smart Sock/Smart_Sock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart Sock/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4JW4PR2BN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JiajunGuo.FYP.Smart-Sock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5726E0F42BA30B90001423BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4JW4PR2BN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JiajunGuo.FYP.Smart-SockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Sock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart Sock";
+			};
+			name = Debug;
+		};
+		5726E0F52BA30B90001423BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4JW4PR2BN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JiajunGuo.FYP.Smart-SockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Sock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart Sock";
+			};
+			name = Release;
+		};
+		5726E0F72BA30B90001423BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4JW4PR2BN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JiajunGuo.FYP.Smart-SockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Sock";
+			};
+			name = Debug;
+		};
+		5726E0F82BA30B90001423BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4JW4PR2BN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JiajunGuo.FYP.Smart-SockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Sock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5726E0C12BA30B8E001423BE /* Build configuration list for PBXProject "Smart Sock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5726E0EE2BA30B90001423BE /* Debug */,
+				5726E0EF2BA30B90001423BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5726E0F02BA30B90001423BE /* Build configuration list for PBXNativeTarget "Smart Sock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5726E0F12BA30B90001423BE /* Debug */,
+				5726E0F22BA30B90001423BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5726E0F32BA30B90001423BE /* Build configuration list for PBXNativeTarget "Smart SockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5726E0F42BA30B90001423BE /* Debug */,
+				5726E0F52BA30B90001423BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5726E0F62BA30B90001423BE /* Build configuration list for PBXNativeTarget "Smart SockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5726E0F72BA30B90001423BE /* Debug */,
+				5726E0F82BA30B90001423BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5726E0CD2BA30B8E001423BE /* Smart_Sock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5726E0CE2BA30B8E001423BE /* Smart_Sock.xcdatamodel */,
+			);
+			currentVersion = 5726E0CE2BA30B8E001423BE /* Smart_Sock.xcdatamodel */;
+			path = Smart_Sock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5726E0BE2BA30B8E001423BE /* Project object */;
+}
