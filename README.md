@@ -28,6 +28,6 @@ Due to the lack of Bluetooth support in iOS simulators, testing the Bluetooth fu
 Before using the app for the first time, some settings need to be configured on your iOS device:
 
 1. Go to `Settings` > `Privacy & Security` and enable `Developer Mode`.
-2. Then, navigate to `Settings` > `General` > `VPN & Device Management`. Find the 'Smart Sock' APP under Developer App and select `Trust` to verify it.
+2. Then, navigate to `Settings` > `General` > `VPN & Device Management`. Find the 'Smart Sock' APP under Developer App and select `Trust` and verify it.
 
 Once trusted and verified, the app is ready for normal use. You can now open the app to test the UI responsiveness and accuracy, including data update frequency, error handling, and functionality of interactive elements.
